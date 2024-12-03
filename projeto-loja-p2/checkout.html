@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/LOGO.svg" type="image/x-icon">
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">Minha Loja</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="card shadow-lg">
+      <div class="card-header bg-primary text-white">
+        <h1 class="h4 mb-0">Detalhes da Compra</h1>
+      </div>
+      <div class="card-body">
+        <!-- Lista de Produtos -->
+        <ul id="checkoutLista" class="list-group mb-3">
+          <!-- Os itens serão inseridos dinamicamente -->
+        </ul>
+        <!-- Total da Compra -->
+        <div class="d-flex justify-content-between align-items-center border-top pt-3">
+          <strong class="h5">Total:</strong>
+          <span id="checkoutTotal" class="h5 text-success">R$ 0,00</span>
+        </div>
+        <!-- Botão de Finalizar -->
+        <div class="d-grid mt-4">
+          <button id="finalizarCompra" class="btn btn-success btn-lg">Finalizar Compra</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Adicionando um estilo básico para a página */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilo do conteúdo da página */
+.page-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo para a seção da imagem */
+.image-section {
+  flex: 1; /* Ocupa toda a largura da tela */
+  height: 100%;
+  position: relative;
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem cobrir todo o espaço sem distorção */
+}
+
+/* Estilo para a seção do formulário */
+.form-section {
+  flex: 1; /* Ocupa a outra metade da tela */
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Adicionando um espaçamento e estilo para os inputs e botões */
+input.form-control {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* Estilo de alerta de erro */
+#loginError {
+  display: none;
+}

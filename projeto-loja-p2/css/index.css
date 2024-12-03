@@ -1,0 +1,215 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+  }
+  
+  /* Corpo e Fundo */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4F9; /* Cinza claro */
+    color: #333333; /* Texto escuro */
+  }
+  
+  /* Navbar */
+  
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FF8C00; /* Laranja vibrante */
+  }
+  
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  #loginBtn, #carrinhoBtn {
+    border: 2px solid #FF8C00; /* Laranja vibrante */
+    color: #FF8C00;
+  }
+  
+  #loginBtn:hover, #carrinhoBtn:hover {
+    background-color: #FF8C00;
+    color: #fff;
+  }
+  
+  /* Carousel */
+  .carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+
+  /* Seção Sobre Nós */
+  #sobre-nos {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  #sobre-nos h2 {
+    color: #F7A8B8; /* Rosa suave */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #sobre-nos .descricao p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  #sobre-nos .descricao {
+    padding: 20px;
+  }
+  
+  /* Produtos */
+  #produtos {
+    padding: 60px 0;
+  }
+  
+  #produtos h2 {
+    color: #F7A8B8; /* Rosa suave */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-success {
+    background-color: #FF8C00; /* Laranja vibrante */
+    border-color: #FF8C00;
+  }
+  
+  .btn-success:hover {
+    background-color: #e67e00;
+    border-color: #e67e00;
+  }
+  
+  /* Modal */
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .modal-header, .modal-footer {
+    background-color: #F7A8B8; /* Rosa suave */
+    color: #fff;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal-body p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  #checkout-form label {
+    color: #333;
+  }
+  
+  #checkout-form select, #checkout-form input {
+    background-color: #F4F4F9; /* Cinza claro */
+    border: 1px solid #ccc;
+  }
+  
+  /* Contato */
+  #contatos {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  #contatos h2 {
+    color: #F7A8B8; /* Rosa suave */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #contatos .social-icons a {
+    color: #F7A8B8; /* Rosa suave */
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  #contatos .social-icons a:hover {
+    color: #FF8C00; /* Laranja vibrante */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  footer .social-icons a {
+    color: #fff;
+  }
+  
+  footer .social-icons a:hover {
+    color: #F7A8B8; /* Rosa suave */
+  }
+  
+  /* Botões */
+  .btn-primary {
+    background-color: #FF8C00; /* Laranja vibrante */
+    border-color: #FF8C00;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e67e00;
+    border-color: #e67e00;
+  }
+  
